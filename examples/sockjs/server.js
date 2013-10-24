@@ -3,7 +3,6 @@ var connect = require('connect');
 var Duplex = require('stream').Duplex;
 var SockStream = require('../../').SockStream;
 var sharejs = require('share');
-var browserify = require('browserify-middleware');
 var enchilada = require('enchilada');
 
 var createInstance = function() {
