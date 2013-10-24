@@ -1,0 +1,33 @@
+{
+  "name": "transport-adapters",
+  "version": "0.1.0",
+  "description": "Transport adapters for ShareJS",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --ui bdd --reporter spec --compilers coffee:coffee-script test/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dignifiedquire/transport-adapters.git"
+  },
+  "keywords": [
+    "ShareJS",
+    "SockJS",
+    "browserchannel"
+  ],
+  "author": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dignifiedquire/transport-adapters/issues"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.13.0",
+    "share": "~0.7.0-alpha9",
+    "coffee-script": "~1.6.3"
+  }
+}
