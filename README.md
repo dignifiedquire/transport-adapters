@@ -1,4 +1,4 @@
-# Transport Adapters for ShareJS
+# Transport Adapters for ShareJS [![Build Status](https://travis-ci.org/Dignifiedquire/transport-adapters.png)](https://travis-ci.org/Dignifiedquire/transport-adapters)
 
 This is a collection of adapters to use different transports
 with ShareJS 0.7.
