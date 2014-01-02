@@ -29,5 +29,8 @@
     "mocha": "~1.13.0",
     "share": "~0.7.0-alpha9",
     "coffee-script": "~1.6.3"
+  },
+  "dependencies": {
+    "read-write-stream": "~0.1.7"
   }
 }
