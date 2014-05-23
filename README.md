@@ -35,3 +35,7 @@ $ open http://localhost:3000
 
 Run `npm install` to install all dependencies and `npm test` to run the
 tests.
+
+## License
+
+MIT
